@@ -116,9 +116,13 @@ bridge.onEvenHubEvent((event) => { /* handle taps, swipes, ring */ })
 - Images can't be sent during startup — call `updateImageRawData` after the initial page renders
 - Throttle rapid scroll events (~300ms cooldown recommended)
 
+## Acknowledgments
+
+Huge thanks to [**@nickustinov**](https://github.com/nickustinov) for creating and maintaining [even-g2-notes](https://github.com/nickustinov/even-g2-notes) — the community-driven documentation repo that made G2 plugin development actually possible. The architecture docs, UI pattern guides, and reference apps (Chess, Reddit, Weather, Pong, and more) in that repo are invaluable. This template wouldn't exist without that work.
+
 ## Resources
 
-- [Community docs & reference apps](https://github.com/nickustinov/even-g2-notes) — architecture, UI patterns, example plugins (Chess, Reddit, Weather, Pong, and more)
+- [even-g2-notes](https://github.com/nickustinov/even-g2-notes) — community docs, reference apps, and the best resource for G2 development
 - [Even Realities](https://www.evenrealities.com/) — official site
 - [`@evenrealities/even_hub_sdk`](https://www.npmjs.com/package/@evenrealities/even_hub_sdk) — SDK on npm
 
