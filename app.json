@@ -1,8 +1,8 @@
 {
-  "package_id": "com.brianmatzelle.helloworld",
-  "name": "Hello World",
+  "package_id": "com.example.g2plugin",
+  "name": "My G2 Plugin",
   "version": "1.0.0",
-  "description": "A simple Hello World plugin for Even Realities G2 glasses",
-  "author": "brianmatzelle",
+  "description": "An Even Realities G2 plugin",
+  "author": "your-name",
   "entrypoint": "index.html"
 }
