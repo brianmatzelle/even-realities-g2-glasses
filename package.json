@@ -1,0 +1,20 @@
+{
+  "name": "g2-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "qr": "evenhub qr --http --port 5173",
+    "pack": "npm run build && evenhub pack app.json dist -o hello-world.ehpk"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "^0.0.7"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-cli": "^0.1.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
